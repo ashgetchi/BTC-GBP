@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<the-pound-display>
+    <h2>GBP</h2>
+</the-pound-display>
+<the-pound-changer>
+</the-pound-changer>
+<the-bitcoin-displayer></the-bitcoin-displayer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import ThePoundChanger from './components/ThePoundChanger'
+import TheBitcoinDisplayer from './components/TheBitcoinDisplayer'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ThePoundChanger,
+    TheBitcoinDisplayer
   }
 }
 </script>
